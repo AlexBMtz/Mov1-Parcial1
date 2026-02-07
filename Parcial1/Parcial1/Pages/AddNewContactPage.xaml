@@ -16,10 +16,12 @@
                Keyboard="Telephone" />
         <HorizontalStackLayout>
             <Button Text="Save Contact"
-                    HorizontalOptions="Center" />
+                    HorizontalOptions="Center"
+                   />
 
             <Button Text="Cancel"
-                    HorizontalOptions="Center" />
+                    HorizontalOptions="Center"
+                    Clicked="OnCancelClicked" />
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

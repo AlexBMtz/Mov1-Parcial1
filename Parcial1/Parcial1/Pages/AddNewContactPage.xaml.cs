@@ -6,4 +6,9 @@ public partial class AddNewContactPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnCancelClicked(object sender, EventArgs e)
+    {
+		await Shell.Current.GoToAsync("..");
+    }
 }
