@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial1.Pages.ContactDetailPage"
+             Title="ContactDetailPage">
+    <VerticalStackLayout Margin="15">
+        <Label x:Name="nameLabel"
+               FontSize="24"
+               HorizontalOptions="Center" />
+        <Label x:Name="phoneLabel"
+               FontSize="24"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
