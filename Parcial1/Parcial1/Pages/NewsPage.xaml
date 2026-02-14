@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial1.Pages.NewsPage"
+             Title="NewsPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="The Hottest News!"
+            FontSize="Title"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <ListView x:Name="newsListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Title}"
+                              Detail="{Binding Summary}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </VerticalStackLayout>
+</ContentPage>
